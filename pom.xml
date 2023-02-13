@@ -133,9 +133,9 @@
   <build>
     <plugins>
       <plugin>
-        <groupId>io.spring.javaformat</groupId>
-        <artifactId>spring-javaformat-maven-plugin</artifactId>
-        <version>${spring-format.version}</version>
+        # <groupId>io.spring.javaformat</groupId>
+        # <artifactId>spring-javaformat-maven-plugin</artifactId>
+        # <version>${spring-format.version}</version>
         <!-- run ./mvnw spring-javaformat:apply to apply -->
         <executions>
           <execution>
@@ -147,9 +147,9 @@
         </executions>
       </plugin>
       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-checkstyle-plugin</artifactId>
-        <version>3.1.0</version>
+        # <groupId>org.apache.maven.plugins</groupId>
+        # <artifactId>maven-checkstyle-plugin</artifactId>
+        # <version>3.1.0</version>
         <dependencies>
           <dependency>
             <groupId>com.puppycrawl.tools</groupId>
@@ -181,8 +181,8 @@
         </executions>
       </plugin>
       <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
+        # <groupId>org.springframework.boot</groupId>
+        # <artifactId>spring-boot-maven-plugin</artifactId>
         <executions>
           <execution>
             <!-- Spring Boot Actuator displays build-related information
@@ -202,9 +202,9 @@
         </executions>
       </plugin>
       <plugin>
-        <groupId>org.jacoco</groupId>
-        <artifactId>jacoco-maven-plugin</artifactId>
-        <version>${jacoco.version}</version>
+        # <groupId>org.jacoco</groupId>
+        # <artifactId>jacoco-maven-plugin</artifactId>
+        # <version>${jacoco.version}</version>
         <executions>
           <execution>
             <goals>
@@ -224,8 +224,8 @@
       <!-- Spring Boot Actuator displays build-related information if a git.properties
         file is present at the classpath -->
       <plugin>
-        <groupId>pl.project13.maven</groupId>
-        <artifactId>git-commit-id-plugin</artifactId>
+        # <groupId>pl.project13.maven</groupId>
+        # <artifactId>git-commit-id-plugin</artifactId>
         <executions>
           <execution>
             <goals>
@@ -244,9 +244,9 @@
       </plugin>
 
       <plugin>
-        <groupId>ro.isdc.wro4j</groupId>
-        <artifactId>wro4j-maven-plugin</artifactId>
-        <version>${wro4j.version}</version>
+        # <groupId>ro.isdc.wro4j</groupId>
+        # <artifactId>wro4j-maven-plugin</artifactId>
+        # <version>${wro4j.version}</version>
         <executions>
           <execution>
             <phase>generate-resources</phase>
@@ -264,14 +264,14 @@
         </configuration>
         <dependencies>
           <dependency>
-            <groupId>org.webjars</groupId>
-            <artifactId>bootstrap</artifactId>
-            <version>${webjars-bootstrap.version}</version>
+            # <groupId>org.webjars</groupId>
+            # <artifactId>bootstrap</artifactId>
+            # <version>${webjars-bootstrap.version}</version>
           </dependency>
           <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-core</artifactId>
-            <version>${mockito.version}</version>
+            # <groupId>org.mockito</groupId>
+            # <artifactId>mockito-core</artifactId>
+            # <version>${mockito.version}</version>
           </dependency>
         </dependencies>
       </plugin>
