@@ -36,28 +36,28 @@
   <dependencies>
     <!-- Spring and Spring Boot dependencies -->
     <dependency>
-     # <groupId>org.springframework.boot</groupId>
-     # <artifactId>spring-boot-starter-actuator</artifactId>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-actuator</artifactId>
     </dependency>
     <dependency>
-     # <groupId>org.springframework.boot</groupId>
-     # <artifactId>spring-boot-starter-cache</artifactId>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-cache</artifactId>
     </dependency>
     <dependency>
-     # <groupId>org.springframework.boot</groupId>
-     # <artifactId>spring-boot-starter-data-jpa</artifactId>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-jpa</artifactId>
     </dependency>
     <dependency>
-     # <groupId>org.springframework.boot</groupId>
-     # <artifactId>spring-boot-starter-web</artifactId>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
     <dependency>
-     # <groupId>org.springframework.boot</groupId>
-     # <artifactId>spring-boot-starter-thymeleaf</artifactId>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-thymeleaf</artifactId>
     </dependency>
     <dependency>
-     # <groupId>org.springframework.boot</groupId>
-     # <artifactId>spring-boot-starter-test</artifactId>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
         <exclusions>
             <exclusion>
@@ -69,63 +69,63 @@
 
     <!-- Databases - Uses HSQL by default -->
     <dependency>
-     # <groupId>org.hsqldb</groupId>
-     # <artifactId>hsqldb</artifactId>
+      <groupId>org.hsqldb</groupId>
+      <artifactId>hsqldb</artifactId>
       <scope>runtime</scope>
     </dependency>
     <dependency>
-     # <groupId>mysql</groupId>
-     # <artifactId>mysql-connector-java</artifactId>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
       <scope>runtime</scope>
     </dependency>
 
     <!-- caching -->
     <dependency>
-     # <groupId>javax.cache</groupId>
-     # <artifactId>cache-api</artifactId>
+      <groupId>javax.cache</groupId>
+      <artifactId>cache-api</artifactId>
     </dependency>
     <dependency>
-     # <groupId>org.ehcache</groupId>
-     # <artifactId>ehcache</artifactId>
+      <groupId>org.ehcache</groupId>
+      <artifactId>ehcache</artifactId>
     </dependency>
 
     <!-- webjars -->
     <dependency>
-     # <groupId>org.webjars</groupId>
-     # <artifactId>webjars-locator-core</artifactId>
+      <groupId>org.webjars</groupId>
+      <artifactId>webjars-locator-core</artifactId>
     </dependency>
     <dependency>
-     # <groupId>org.webjars</groupId>
-     # <artifactId>jquery</artifactId>
-     # <version>${webjars-jquery.version}</version>
+      <groupId>org.webjars</groupId>
+      <artifactId>jquery</artifactId>
+      <version>${webjars-jquery.version}</version>
     </dependency>
     <dependency>
-     # <groupId>org.webjars</groupId>
-     # <artifactId>jquery-ui</artifactId>
-     # <version>${webjars-jquery-ui.version}</version>
+      <groupId>org.webjars</groupId>
+      <artifactId>jquery-ui</artifactId>
+      <version>${webjars-jquery-ui.version}</version>
     </dependency>
     <dependency>
-     # <groupId>org.webjars</groupId>
-     # <artifactId>bootstrap</artifactId>
-     # <version>${webjars-bootstrap.version}</version>
+      <groupId>org.webjars</groupId>
+      <artifactId>bootstrap</artifactId>
+      <version>${webjars-bootstrap.version}</version>
     </dependency>
     <!-- end of webjars -->
 
     <!-- Testing -->
     <dependency>
-     # <groupId>org.junit.jupiter</groupId>
-     # <artifactId>junit-jupiter-engine</artifactId>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
       <scope>test</scope>
     </dependency>
     <dependency>
-     # <groupId>org.mockito</groupId>
-     # <artifactId>mockito-junit-jupiter</artifactId>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-junit-jupiter</artifactId>
       <scope>test</scope>
     </dependency>
 
     <dependency>
-     # <groupId>org.springframework.boot</groupId>
-     # <artifactId>spring-boot-devtools</artifactId>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-devtools</artifactId>
       <optional>true</optional>
     </dependency>
   </dependencies>
@@ -133,9 +133,9 @@
   <build>
     <plugins>
       <plugin>
-       # <groupId>io.spring.javaformat</groupId>
-       # <artifactId>spring-javaformat-maven-plugin</artifactId>
-       # <version>${spring-format.version}</version>
+        <groupId>io.spring.javaformat</groupId>
+        <artifactId>spring-javaformat-maven-plugin</artifactId>
+        <version>${spring-format.version}</version>
         <!-- run ./mvnw spring-javaformat:apply to apply -->
         <executions>
           <execution>
@@ -147,19 +147,19 @@
         </executions>
       </plugin>
       <plugin>
-       # <groupId>org.apache.maven.plugins</groupId>
-       # <artifactId>maven-checkstyle-plugin</artifactId>
-       # <version>3.1.0</version>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-checkstyle-plugin</artifactId>
+        <version>3.1.0</version>
         <dependencies>
           <dependency>
-           # <groupId>com.puppycrawl.tools</groupId>
-           # <artifactId>checkstyle</artifactId>
-           # <version>8.29</version>
+            <groupId>com.puppycrawl.tools</groupId>
+            <artifactId>checkstyle</artifactId>
+            <version>8.29</version>
           </dependency>
           <dependency>
-           # <groupId>io.spring.nohttp</groupId>
-           # <artifactId>nohttp-checkstyle</artifactId>
-           # <version>${nohttp-checkstyle.version}</version>
+            <groupId>io.spring.nohttp</groupId>
+            <artifactId>nohttp-checkstyle</artifactId>
+            <version>${nohttp-checkstyle.version}</version>
           </dependency>
         </dependencies>
         <executions>
