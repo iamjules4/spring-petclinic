@@ -7,7 +7,7 @@ Your GitHub Actions dashboard showing a successful first build.
 ![Screen Capture #1](Screencaps/Screenshot%202023-02-13%20at%205.08.41%20PM.png)
 
 Your GitHub repository with the readme.md file selected showing the code that you changed to update the badge.
-![Screen Capture #2](Screencaps/Screenshot%202023-02-13%20at%204.58.51%20PM.png)
+![Screen Capture #2](Screencaps/Screenshot%202023-02-26%20at%203.38.43%20PM.png)
 
 Your GitHub repository with the readme.md file selected showing the build success status after you’ve updated the badge markdown.
 ![Screen Capture #3](Screencaps/Screenshot%202023-02-13%20at%205.04.03%20PM.png)
